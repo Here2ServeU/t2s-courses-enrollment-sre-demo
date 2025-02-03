@@ -11,6 +11,29 @@ This repository demonstrates **Site Reliability Engineering (SRE) best practices
 - **Chaos Engineering (Gremlin)**
 - **Performance Testing (k6)**
 
+---
+This project helps with the following:
+
+- **Multi-Region Hosting**: S3 + CloudFront CDN ensures content delivery worldwide.
+- **Multi-Tenancy Support**: Each instructor gets a separate database schema on RDS.
+- **Observability at Scale**: Prometheus & OpenTelemetry Tracing ensure smooth operation.
+- **Security Compliance**: Trivy Security Scans + AWS Shield protect against threats.
+
+---
+## Use Cases: 
+
+| Use Cases                            | Features Used                               |
+| -----------------------------------  | ------------------------------------------- |
+| **Scalable Online Learning**         | ECS, S3 + CloudFront, Gremlin, k6           |
+| **Automated CI/CD Deployments**      | GitHub Actions, ArgoCD, Terraform, ELK      |
+| **Secure Payment & Enrollment**      | IAM Roles, RDS, Grafana Dashboards          |
+| **University Course Management**     | ELK Stack, OpenTelemetry                    |
+| **Corporate IT Training**            | SSO with Cognito, CloudWatch Metrics, ALB   |
+| **Government Certification Portal**  | Compliance, Auditing, Auto-scaling          |
+| **Global EdTech Startup**            | Multi-Region S3, OpenTelemetry, AWS Shield  |
+
+---
+
 ## Deployment Instructions
 
 1. **Initialize Terraform & Deploy Infrastructure**
